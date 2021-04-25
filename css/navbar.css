@@ -1,0 +1,66 @@
+.navbar {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo_container .account_name_first_letter {
+    position: absolute;
+    top: 4px;
+    left: 9px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #48B774;
+}
+.navbar .logo_container .account_name {
+    font-weight: 500;
+    color: #2D2D2D;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.navbar .navigation_container {
+    display: flex;
+}
+.navbar .navigation_container .link {
+    margin-right: 20px;
+    position: relative;
+    text-align: right;
+    float: right;
+    clear: right;
+}
+.navbar .navigation_container .active::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid #FB9B69;
+    left: 35%;
+    bottom: -5px;
+    width: 25%;
+    height: 0;
+}
+
+
+.navbar .navigation_container a {
+    color: #4A4A4A;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar .sign_up_container .sign_up_button {
+    background-color: #48B774;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    font-size: 16px;
+    width: auto;
+    text-align: center;
+    color: white;
+}
